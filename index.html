@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business Storytelling & Strategic Messaging with Ori Luzia | March 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #ffffff;
+      color: #343542;
+      line-height: 1.7;
+    }
+
+    /* ── Header ── */
+    .page-header {
+      background: #E9EDF6;
+      padding: 48px 24px 40px;
+    }
+
+    .page-header .inner {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #FF5B23;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      line-height: 1.25;
+      color: #152952;
+      letter-spacing: -0.02em;
+      max-width: 600px;
+    }
+
+    /* ── Main content ── */
+    .content {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #343542;
+    }
+
+    /* ── Intro two-column layout ── */
+    .intro {
+      display: flex;
+      align-items: flex-start;
+      gap: 40px;
+      margin-bottom: 32px;
+    }
+
+    .intro-text {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .intro-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    .photo-wrap {
+      flex-shrink: 0;
+      width: 220px;
+    }
+
+    .photo-wrap img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .intro {
+        flex-direction: column-reverse;
+        gap: 24px;
+      }
+      .photo-wrap {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+      }
+    }
+
+    /* ── Divider ── */
+    hr {
+      border: none;
+      border-top: 1px solid #E9EDF6;
+      margin: 40px 0;
+    }
+
+    /* ── CTA blocks ── */
+    .cta-block {
+      border-radius: 16px;
+      padding: 28px 32px;
+      margin: 32px 0;
+    }
+
+    .cta-block.sky {
+      background: #E9EDF6;
+      border-left: 4px solid #BAD6FF;
+    }
+
+    .cta-block.plum {
+      background: #6B0B5B;
+      border-left: none;
+      color: #fff;
+    }
+
+    .cta-block.plum p,
+    .cta-block.plum h3 {
+      color: #fff;
+    }
+
+    .cta-block h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #152952;
+      margin-bottom: 10px;
+    }
+
+    .cta-block p {
+      font-size: 0.95rem;
+      margin-bottom: 18px;
+    }
+
+    .cta-block p:last-child {
+      margin-bottom: 0;
+    }
+
+    .note {
+      font-size: 0.85rem;
+      opacity: 0.7;
+      font-style: italic;
+      margin-top: 14px !important;
+    }
+
+    /* ── Buttons ── */
+    .btn {
+      display: inline-block;
+      background: #FF5B23;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 8px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    .btn:hover {
+      background: #e04a14;
+      transform: translateY(-1px);
+    }
+
+    .btn.btn-light {
+      background: #fff;
+      color: #6B0B5B;
+    }
+
+    .btn.btn-light:hover {
+      background: #f5e6f3;
+      transform: translateY(-1px);
+    }
+
+    /* ── Footer ── */
+    footer {
+      background: #152952;
+      padding: 32px 24px;
+      text-align: center;
+    }
+
+    footer p {
+      color: #BAD6FF;
+      font-size: 0.9rem;
+      margin: 0;
+    }
+
+    footer a {
+      color: #FF5B23;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer a:hover { text-decoration: underline; }
+
+    /* ── Responsive ── */
+    @media (max-width: 480px) {
+      h1 { font-size: 1.4rem; }
+      .cta-block { padding: 22px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="page-header">
+    <div class="inner">
+      <p class="eyebrow">Ori Luzia · March 2026</p>
+      <h1>Business Storytelling &amp; Strategic Messaging</h1>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <div class="intro">
+      <div class="intro-text">
+        <p>Hi Everyone,</p>
+        <p>I'm excited to kick off our upcoming program and spend some time together over the next few weeks, to go over your strategic business narrative and storytelling.</p>
+        <p>As I'm sure you know by now, storytelling is one of the most powerful tools in the modern business leader's arsenal. When done effectively, it ensures that your messages, value propositions, unique selling points, and business potential come across clearly and persuasively. This is why, having a well-crafted story helps to boost business goals and objectives, from raising capital to increasing sales.</p>
+      </div>
+      <div class="photo-wrap">
+        <img src="Ori Luzia Headshots-7050.jpg" alt="Ori Luzia" />
+      </div>
+    </div>
+
+    <p>For startups and young companies, telling a clear and compelling story is often just as challenging as it is crucial. And so, this program aims to help you transform your pitch and overall communication into powerful, convincing narratives that drive growth and deliver results.</p>
+
+    <p>Through personalized 1:1 sessions, we'll review and develop your business's storytelling, with a focus on your <strong>investor pitch and slide deck</strong>. We'll analyze your current narrative, identify strengths and weaknesses, clarify messages, enhance the logic and impact, and upgrade your pitch "voice" to effectively convey your value proposition, competitive advantage, and strength of your team. By the end of the 2nd session, our goal is to equip you with an upgraded investor pitch, and you will have the conviction and confidence to deliver it effectively at the Sosa pitching event.</p>
+
+    <hr />
+
+    <div class="cta-block sky">
+      <h3>Schedule your working sessions</h3>
+      <p>Please <strong>book both sessions</strong>, ideally at least <strong>one week apart</strong>.</p>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <a class="btn" href="https://calendly.com/oriluzia/messaging-storytelling-workshop-1-sp24?month=2026-03" target="_blank" rel="noopener">Book Session #1</a>
+        <a class="btn" href="https://calendly.com/oriluzia/messaging-storytelling-workshop-2-sp24" target="_blank" rel="noopener">Book Session #2</a>
+      </div>
+      <p class="note">If you can't find any available slots, try the following month. If none of the available slots work for you, please contact me directly and I'll do my best to accommodate.</p>
+    </div>
+
+    <p><strong>For our 1st session, please come prepared to present your current pitch deck in 5–7 minutes. There's no need to rehearse intensively, but make sure you familiarize yourself with it enough to run through it fluently.</strong></p>
+
+    <div class="cta-block plum">
+      <h3>Pre-session form</h3>
+      <p><em>Please fill out this form before our 1st session, to help me get to know you better.</em></p>
+      <a class="btn btn-light" href="https://forms.gle/ucJWRDt5h2txd4GZ7" target="_blank" rel="noopener">Fill out the form</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>
+      Connect on <a href="https://www.linkedin.com/in/ori-luzia/" target="_blank" rel="noopener">LinkedIn</a>
+      &nbsp;·&nbsp;
+      <a href="mailto:ori@oriluzia.com">ori@oriluzia.com</a>
+    </p>
+  </footer>
+
+</body>
+</html>
